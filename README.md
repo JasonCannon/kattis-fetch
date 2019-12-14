@@ -8,7 +8,7 @@ You can use `git clone https://github.com/JasonCannon/kattis-fetch` to clone the
 Before running the fetcher, you need to [download a configuration file](https://open.kattis.com/download/kattisrc). This file includes a secret personal token that allows you to log in. It should be placed in your home directory, or in the same directory as `fetch.py`, and be called `.kattisrc`.
 
 ## Usage
-To run the fetcher, first make sure you have downloaded your Kattis configuration file. You can then `cd` into the `kattis-fetch` directory and run `python3 fetch.py <email>`. The script make take some time to run and will the write the results to a json file called `kattis.json` in the same directory. **Do not spam or overuse this script as it requires live fetching from the Kattis servers.**
+To run the fetcher, first make sure you have downloaded your Kattis configuration file. You can then `cd` into the `kattis-fetch` directory and run `python3 fetch.py <kattis_email>`. The script make take some time to run and will the write the results to a json file called `kattis.json` in the same directory. **Do not spam or overuse this script as it requires live fetching from the Kattis servers.**
 
 ### Preview
 This script will produce a file called `kattis.json` in the same directory. The layout of the file will look like:
