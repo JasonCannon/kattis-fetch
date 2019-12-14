@@ -34,3 +34,7 @@ Before running the fetcher, you need to [download a configuration file](https://
 
 ## Requirements
 This Python script requires the library [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) to be able to fetch the data. The easiest way to install this library would be to use a library / package manager (e.g. `pip3 install beautifulsoup4` or `apt-get install python3-bs4`).
+
+### TODOs
+- Improve the script overall _(it's currently just hacked together)_.
+- Add the ability to download all source files (e.g. all .cpp, .py files) for a user's solved Kattis problems _(could put some strain on the Kattis servers so I would have to thoroughly test this out first to avoid any potential issues)_.
